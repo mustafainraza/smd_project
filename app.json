@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Elevate",
+    "slug": "Elevate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mustafainraza.Elevate"
+    },
+    "web": {
+      "favicon": "./assets/logo-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f9cd46d-0f49-4df8-86ce-58000bc8f071"
+      }
+    }
+  }
+}
