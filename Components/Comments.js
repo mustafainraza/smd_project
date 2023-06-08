@@ -90,7 +90,7 @@ export default function Comments({ route }) {
                 width: 50,
                 borderRadius: 50,
               }}
-              source={require("../assets/user.jpg")}
+              source={require("../assets/user.png")}
             />
           )
         ) : (
@@ -100,7 +100,7 @@ export default function Comments({ route }) {
               width: 50,
               borderRadius: 50,
             }}
-            source={require("../assets/user.jpg")}
+            source={require("../assets/user.png")}
           />
         )}
       </View>

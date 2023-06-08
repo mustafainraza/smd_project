@@ -69,11 +69,11 @@ const Profile = ({ navigation }) => {
               ) : (
                 <Avatar.Image
                   size={100}
-                  source={require("../assets/user.jpg")}
+                  source={require("../assets/user.png")}
                 />
               )
             ) : (
-              <Avatar.Image size={100} source={require("../assets/user.jpg")} />
+              <Avatar.Image size={100} source={require("../assets/user.png")} />
             )}
           </View>
         ) : (
@@ -98,11 +98,11 @@ const Profile = ({ navigation }) => {
               ) : (
                 <Avatar.Image
                   size={100}
-                  source={require("../assets/user.jpg")}
+                  source={require("../assets/user.png")}
                 />
               )
             ) : (
-              <Avatar.Image size={100} source={require("../assets/user.jpg")} />
+              <Avatar.Image size={100} source={require("../assets/user.png")} />
             )}
           </View>
         )}
